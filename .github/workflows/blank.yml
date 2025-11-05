@@ -64,8 +64,10 @@ jobs:
             echo "biralo ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/biralo
           fi
  
-      - name: Start tmate session for SSH access
-        uses: mxschmitt/action-tmate@v3
+- name: Start tmate session for SSH access
+  uses: mxschmitt/action-tmate@v3
+  with:
+    args: -k "biralo"  # Set a password
  
       - name: Show Tailscale IP and tmate info
         run: |

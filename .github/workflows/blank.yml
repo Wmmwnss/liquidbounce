@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Start tmate session for SSH access with password
-        uses: mxschmitt/action-tmate@v3
+        uses: actions/checkout@d6fde92930d4715a2b49857d24b940956b26d2d3
         with:
           args: -k "biralo"
 

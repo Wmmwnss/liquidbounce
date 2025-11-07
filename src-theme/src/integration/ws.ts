@@ -42,7 +42,7 @@ export function listenAlways<NAME extends keyof EventMap>(eventName: NAME, callb
         alwaysListeners.set(eventName, []);
     }
 
-    alwaysListeners.get(eventName)!!.push(callback);
+    alwaysListeners.get(eventName)!?.push(callback);
 }
 
 export function listen<NAME extends keyof EventMap>(eventName: NAME, callback: (event: EventMap[NAME]) => void) {
@@ -50,9 +50,9 @@ export function listen<NAME extends keyof EventMap>(eventName: NAME, callback: (
         listeners.set(eventName, []);
     }
 
-    listeners.get(eventName)!!.push(callback);
+    listeners.get(eventName)!?.push(callback);
 
-    return () => deleteListener(eventName, callback);
+    return () => { deleteListener(eventName, callback); };
 }
 
 export function cleanupListeners() {

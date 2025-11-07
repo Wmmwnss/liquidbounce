@@ -356,10 +356,7 @@ export interface GameWindow {
     guiScale: number;
 }
 
-export interface Theme {
-    name: string;
-    id: string;
-    settings: { [name: string]: any };
+    settings: { [name: string]: unknown };
 }
 
 export interface Component {

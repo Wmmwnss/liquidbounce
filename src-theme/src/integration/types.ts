@@ -354,8 +354,6 @@ export interface GameWindow {
     scaledHeight: number;
     scaleFactor: number;
     guiScale: number;
-}
-
     settings: { [name: string]: unknown };
 }
 

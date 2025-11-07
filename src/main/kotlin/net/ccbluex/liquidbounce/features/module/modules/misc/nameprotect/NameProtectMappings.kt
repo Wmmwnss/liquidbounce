@@ -111,7 +111,7 @@ class NameProtectMappings {
 }
 
 private fun getEntropySourceFrom(playerName: String): Random {
-    val hash = MessageDigest.getInstance("MD5").digest(playerName.toByteArray())
+    val hash = MessageDigest.getInstance("SHA-256").digest(playerName.toByteArray())
     // Parse the first 8 bytes to long value
     val l = ByteBuffer.wrap(hash).long
     return Random(l)

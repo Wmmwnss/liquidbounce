@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:26.759Z" hostname="localhost" time="0.11">
+  <properties/>
+  <testcase name="flatMapVirtual matches standard flatMap()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.029"/>
+  <testcase name="flatMapVirtual with empty input list()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.005"/>
+  <testcase name="flatMapVirtual with large lists()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.032"/>
+  <testcase name="flatMapVirtual with index out of bounds()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.016"/>
+  <testcase name="flatMapVirtual with empty transformed lists()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.003"/>
+  <testcase name="flatMapVirtual with single element()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.012"/>
+  <testcase name="flatMapVirtual basic functionality()" classname="net.ccbluex.liquidbounce.utils.collection.FlatMapVirtualTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.math.CurveUtilTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:27.124Z" hostname="localhost" time="0.02">
+  <properties/>
+  <testcase name="transform handles single point list()" classname="net.ccbluex.liquidbounce.utils.math.CurveUtilTest" time="0.012"/>
+  <testcase name="transform returns exact Y when xPos equals a data point X()" classname="net.ccbluex.liquidbounce.utils.math.CurveUtilTest" time="0.002"/>
+  <testcase name="transform interpolates between points()" classname="net.ccbluex.liquidbounce.utils.math.CurveUtilTest" time="0.001"/>
+  <testcase name="transform returns first Y when xPos is less than first X()" classname="net.ccbluex.liquidbounce.utils.math.CurveUtilTest" time="0.001"/>
+  <testcase name="transform returns last Y when xPos is greater than last X()" classname="net.ccbluex.liquidbounce.utils.math.CurveUtilTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

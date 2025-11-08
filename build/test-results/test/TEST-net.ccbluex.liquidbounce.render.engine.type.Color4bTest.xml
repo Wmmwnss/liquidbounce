@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.render.engine.type.Color4bTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:26.418Z" hostname="localhost" time="0.021">
+  <properties/>
+  <testcase name="fromHex with invalid format()" classname="net.ccbluex.liquidbounce.render.engine.type.Color4bTest" time="0.013"/>
+  <testcase name="fromHex with RGB format()" classname="net.ccbluex.liquidbounce.render.engine.type.Color4bTest" time="0.001"/>
+  <testcase name="fromHex with ARGB format()" classname="net.ccbluex.liquidbounce.render.engine.type.Color4bTest" time="0.001"/>
+  <testcase name="fromHex with ARGB format including hash()" classname="net.ccbluex.liquidbounce.render.engine.type.Color4bTest" time="0.001"/>
+  <testcase name="fromHex with RGB format including hash()" classname="net.ccbluex.liquidbounce.render.engine.type.Color4bTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

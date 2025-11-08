@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:26.877Z" hostname="localhost" time="0.124">
+  <properties/>
+  <testcase name="evicts least recently used item among entries with same frequency()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.095"/>
+  <testcase name="cache with capacity 1 evicts previous item immediately()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.001"/>
+  <testcase name="creating cache with non-positive capacity throws IllegalArgumentException()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.012"/>
+  <testcase name="item frequency increases with each access and affects eviction()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.001"/>
+  <testcase name="cache size increases after put operation()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.001"/>
+  <testcase name="put and get operations return correct value()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.0"/>
+  <testcase name="evicts least frequently used item when capacity is exceeded()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.0"/>
+  <testcase name="updating existing key increases its frequency and retains the key()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.001"/>
+  <testcase name="getOrPut returns existing value without invoking supplier()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.0"/>
+  <testcase name="getOrPut inserts new value using supplier when key is absent()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.0"/>
+  <testcase name="get on non-existent key returns null()" classname="net.ccbluex.liquidbounce.utils.collection.LfuCacheTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

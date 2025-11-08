@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:25.889Z" hostname="localhost" time="0.065">
+  <properties/>
+  <testcase name="test deserialize null JSON to Optional()" classname="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" time="0.015"/>
+  <testcase name="test serialize empty Optional()" classname="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" time="0.022"/>
+  <testcase name="test round-trip Optional serialization and deserialization()" classname="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" time="0.012"/>
+  <testcase name="test deserialize non-null JSON to Optional()" classname="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" time="0.002"/>
+  <testcase name="test serialize non-empty Optional()" classname="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" time="0.002"/>
+  <testcase name="test round-trip with empty Optional()" classname="net.ccbluex.liquidbounce.config.gson.OptionalAdapterTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

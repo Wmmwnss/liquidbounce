@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.block.CachedBlockPosSpheresTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:26.558Z" hostname="localhost" time="0.037">
+  <properties/>
+  <testcase name="test()" classname="net.ccbluex.liquidbounce.utils.block.CachedBlockPosSpheresTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

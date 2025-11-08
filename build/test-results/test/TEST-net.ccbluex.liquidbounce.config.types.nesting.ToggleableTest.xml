@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.config.types.nesting.ToggleableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:25.958Z" hostname="localhost" time="0.009">
+  <properties/>
+  <testcase name="onToggled with true state should call onEnabled and return true()" classname="net.ccbluex.liquidbounce.config.types.nesting.ToggleableTest" time="0.004"/>
+  <testcase name="toggle multiple times should call corresponding methods each time()" classname="net.ccbluex.liquidbounce.config.types.nesting.ToggleableTest" time="0.001"/>
+  <testcase name="onToggled with false state should call onDisabled and return false()" classname="net.ccbluex.liquidbounce.config.types.nesting.ToggleableTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

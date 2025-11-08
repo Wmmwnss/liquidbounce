@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-11-08T05:23:26.610Z" hostname="localhost" time="0.018">
+  <properties/>
+  <testcase name="expansion in multiple directions()" classname="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" time="0.008"/>
+  <testcase name="expansion on positive X()" classname="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" time="0.001"/>
+  <testcase name="non overlapping returns whole new region()" classname="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" time="0.001"/>
+  <testcase name="same region returns empty()" classname="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" time="0.001"/>
+  <testcase name="expansion on negative Z()" classname="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" time="0.001"/>
+  <testcase name="new region inside old returns empty()" classname="net.ccbluex.liquidbounce.utils.block.MovableRegionScannerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
